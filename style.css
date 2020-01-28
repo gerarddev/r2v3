@@ -1,0 +1,337 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: url(fondoRblack02.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: rgb(255, 251, 251);
+    background-color: #FFF;
+    margin: 0px auto;
+    position: relative;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-weight: normal;
+    background-color: rgb(70, 70, 75);
+    
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(27, 26, 26);
+    
+}
+  
+ul.topnav li {float: right;}
+  
+ul.topnav li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-weight: 650;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul {
+    
+    top: 0;
+    width: 100%;
+}
+
+  
+ul.topnav li a:hover:not(.active) {background-color: rgb(3, 0, 184);}
+  
+ul.topnav li a.active {
+    background-color: rgb(170, 0, 0);
+    color: white;
+}
+  
+ul.topnav li.right {float: left;}
+
+.intro-content {
+    position: absolute;
+    padding: 1% 0 5% 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+#intro2 h1 {
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+#intro p.subtitle {
+    color: #ddd;
+}
+
+#avatar {
+    margin: 0 auto;
+    width: 250px;
+}
+
+#avatar img {
+    border-radius: 60%;  
+}
+
+#p1,#p2 {
+    font-weight: bold;
+    width: 400px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.footer-nav {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
+
+.footer-nav p {
+	text-align: center;
+}
+
+/* socials */
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-twitter {
+    background: #bb0000;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #bb0000;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .copyright {
+    font-size: 0px;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.copyright p {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    /* text-transform: uppercase; */
+    /* background-color: rgb(21, 21, 22); */
+    padding-top: 20px 10px;
+    margin: 20px 10px;
+}
+  
+
+
+
+  
+
+/* TABLET OR MOBILE VIEW */
+@media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+    
+    .right {
+        display: none;
+    }
+
+    
+
+    .intro-content {
+        padding: 30% 0 5% 0;
+    }
+
+    #avatar img {
+        border-radius: 60%;  
+    }
+    
+    #avatar {
+        width: 350px auto;
+        height: auto;
+        /* background-color: rgb(82, 82, 82); */
+        padding: 0px 50px;
+    }
+    
+    .overlay {
+        margin: 0 auto;
+        padding: 0 0;
+    
+    }
+
+    #intro2 h1 {
+        color: #FFF;
+        font-size: 40px;
+        font-weight: 300;
+        letter-spacing: 3px;
+    }
+
+    #p2,#p1 {
+        width: 350px;
+        
+        /* background-color: red; */
+    }
+    
+  }
+/* //// */
+
+/* footer {
+    width: 1024px;
+    height: 0px;
+    background-color: rgb(190, 106, 106);
+    margin: 0 auto;
+} */
+
+h1, h6, h2 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+   
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.textport {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+p {
+    text-align: center;
+}
+
+.imagenes {
+    margin: 10px 10px;
+}
+
+/* #avatar img {
+    border-radius: 60%;  
+}
+
+#avatar {
+    width: 170px;
+    height: auto;
+    background-color: rgb(179, 179, 192);
+    padding: 0px 60px;
+}
+
+.overlay {
+    margin: 0 auto;
+    padding: 0 0;
+
+} */
+
+/* DESKTOP VIEW */
+@media screen and (min-width: 1280px) {
+    .container2 {
+        width: 1290px;
+        justify-content: center;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .imagenes {
+        width: 15%;
+        padding-bottom: 2%; /* 32:18, i.e. 16:9 */
+        margin-bottom: 2%; /* (100-32*3)/2 */
+      }
+
+      
+      
+}
+
+/* CONTACT FORM CSS */
+
+/* Style inputs with type="text", select elements and textareas */
+
+#fname, #lname, #iemail, #subject{
+    color: black;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: rgb(19, 13, 80);
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #bb0000;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .wrap {
+    margin: 40px auto;
+    width: 600px;
+    border-radius: 5px;
+    background-color: #6e6e6e;
+    padding: 20px;
+  }
+
+/* MOBILE VIEW FOR THE FORM  */
+  @media screen and (max-width: 600px) {
+    .wrap {
+        margin: 40px auto;
+        width: 350px;
+        border-radius: 5px;
+        background-color: #6e6e6e;
+        padding: 10px;
+    }
+ }
